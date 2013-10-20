@@ -1,0 +1,66 @@
+Autosize
+FALSE
+s
+Compressed
+FALSE
+s
+Direction
+UP
+s
+File Format
+mcs
+s
+Fill Value
+FF
+s
+Flash Data Width
+8
+s
+Flash Topology
+
+s
+Multiboot
+FALSE
+s
+Multiboot Bpi Chain
+
+s
+Multiboot Bpi Device
+
+s
+Multiboot Bpi Type
+
+s
+Number of Designs
+1
+i32
+Number of Prom Devices
+1
+i32
+PFFName
+Untitled
+s
+PFFPath
+/home/piter/fpga/projects/project1_switches_LEDs/
+s
+PFFSize
+0
+s
+Prom 0 name
+8K
+s
+Prom 0 size
+8192
+i32
+RSPin Msb
+
+s
+SPI Selected
+FALSE
+s
+Submode
+PARALLEL
+s
+Swap Bit
+FALSE
+s

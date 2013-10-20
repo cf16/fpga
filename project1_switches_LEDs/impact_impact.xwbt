@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/piter/fpga/projects/project1_switches_LEDs/impact.xsl
+OUTFILE=/home/piter/fpga/projects/project1_switches_LEDs/impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=/home/piter/fpga/projects/project1_switches_LEDs
+LICENSE=iMPACT
+USER_INFO=iMPACT

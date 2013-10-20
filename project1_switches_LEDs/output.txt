@@ -1,0 +1,11 @@
+Storage Target: Generic Parallel PROM
+8K   [8192]
+FF
+Untitled
+/home/piter/fpga/projects/project1_switches_LEDs/
+
+MCS
+UP
+1
+0
+No
