@@ -1,0 +1,1 @@
+nary operations on inputs
