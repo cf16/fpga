@@ -1,1 +1,1 @@
-nary operations on inputs
+binary operations on inputs
