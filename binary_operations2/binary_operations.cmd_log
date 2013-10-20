@@ -1,0 +1,37 @@
+xst -intstyle ise -ifn "/home/piter/fpga/projects/binary_operations/binary_operations.xst" -ofn "/home/piter/fpga/projects/binary_operations/binary_operations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 binary_operations.ngc binary_operations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o binary_operations_map.ncd binary_operations.ngd binary_operations.pcf 
+par -w -intstyle ise -ol high -mt off binary_operations_map.ncd binary_operations.ncd binary_operations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml binary_operations.twx binary_operations.ncd -o binary_operations.twr binary_operations.pcf 
+bitgen -intstyle ise -f binary_operations.ut binary_operations.ncd 
+bitgen -intstyle ise -f binary_operations.ut binary_operations.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc6slx45-csg324-3 binary_operations.ngc binary_operations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o binary_operations_map.ncd binary_operations.ngd binary_operations.pcf 
+par -w -intstyle ise -ol high -mt off binary_operations_map.ncd binary_operations.ncd binary_operations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml binary_operations.twx binary_operations.ncd -o binary_operations.twr binary_operations.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f binary_operations.ut binary_operations.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc6slx45-csg324-3 binary_operations.ngc binary_operations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o binary_operations_map.ncd binary_operations.ngd binary_operations.pcf 
+par -w -intstyle ise -ol high -mt off binary_operations_map.ncd binary_operations.ncd binary_operations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml binary_operations.twx binary_operations.ncd -o binary_operations.twr binary_operations.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f binary_operations.ut binary_operations.ncd 
+xst -intstyle ise -ifn "/home/piter/fpga/projects/binary_operations/binary_operations.xst" -ofn "/home/piter/fpga/projects/binary_operations/binary_operations.syr" 
+xst -intstyle ise -ifn "/home/piter/fpga/projects/binary_operations/binary_operations.xst" -ofn "/home/piter/fpga/projects/binary_operations/binary_operations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc6slx45-csg324-3 binary_operations.ngc binary_operations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o binary_operations_map.ncd binary_operations.ngd binary_operations.pcf 
+par -w -intstyle ise -ol high -mt off binary_operations_map.ncd binary_operations.ncd binary_operations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml binary_operations.twx binary_operations.ncd -o binary_operations.twr binary_operations.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f binary_operations.ut binary_operations.ncd 
+xst -intstyle ise -ifn "/home/piter/fpga/projects/binary_operations/binary_operations.xst" -ofn "/home/piter/fpga/projects/binary_operations/binary_operations.syr" 
+xst -intstyle ise -ifn "/home/piter/fpga/projects/binary_operations/binary_operations.xst" -ofn "/home/piter/fpga/projects/binary_operations/binary_operations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc6slx45-csg324-3 binary_operations.ngc binary_operations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o binary_operations_map.ncd binary_operations.ngd binary_operations.pcf 
+par -w -intstyle ise -ol high -mt off binary_operations_map.ncd binary_operations.ncd binary_operations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml binary_operations.twx binary_operations.ncd -o binary_operations.twr binary_operations.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f binary_operations.ut binary_operations.ncd 
+xst -intstyle ise -ifn "/home/piter/fpga/projects/binary_operations/binary_operations.xst" -ofn "/home/piter/fpga/projects/binary_operations/binary_operations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc6slx45-csg324-3 binary_operations.ngc binary_operations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o binary_operations_map.ncd binary_operations.ngd binary_operations.pcf 
+par -w -intstyle ise -ol high -mt off binary_operations_map.ncd binary_operations.ncd binary_operations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml binary_operations.twx binary_operations.ncd -o binary_operations.twr binary_operations.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f binary_operations.ut binary_operations.ncd 
