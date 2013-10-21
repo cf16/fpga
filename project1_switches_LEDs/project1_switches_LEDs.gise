@@ -189,11 +189,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1382222501" xil_pn:in_ck="2426825442795633972" xil_pn:name="TRAN_genLockedPinConstraints" xil_pn:start_ts="1382222495">
+    <transform xil_pn:end_ts="1382305052" xil_pn:in_ck="2426825442795633972" xil_pn:name="TRAN_genLockedPinConstraints" xil_pn:start_ts="1382305047">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="Switches_LEDs.lpc"/>
     </transform>
     <transform xil_pn:end_ts="1382228745" xil_pn:in_ck="-829173884529875176" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1382228737">

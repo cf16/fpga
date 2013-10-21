@@ -51,3 +51,4 @@ map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -re
 par -w -intstyle ise -ol high -mt off Switches_LEDs_map.ncd Switches_LEDs.ncd Switches_LEDs.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Switches_LEDs.twx Switches_LEDs.ncd -o Switches_LEDs.twr Switches_LEDs.pcf -ucf constraints.ucf 
 bitgen -intstyle ise -f Switches_LEDs.ut Switches_LEDs.ncd 
+pin2ucf -o Switches_LEDs_locked.ucf Switches_LEDs.ncd 

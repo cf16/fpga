@@ -5,7 +5,7 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> 
 Parameter xsthdpdir set to xst
@@ -108,7 +108,7 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/piter/fpga/projects/binary_operations/binary_operations.vhd" into library work
+Parsing VHDL file "/home/piter/fpga/projects/binary_operations2/binary_operations2/binary_operations.vhd" into library work
 Parsing entity <binary_operations>.
 Parsing architecture <Behavioral> of entity <binary_operations>.
 
@@ -123,7 +123,7 @@ Elaborating entity <binary_operations> (architecture <Behavioral>) from library 
 =========================================================================
 
 Synthesizing Unit <binary_operations>.
-    Related source file is "/home/piter/fpga/projects/binary_operations/binary_operations.vhd".
+    Related source file is "/home/piter/fpga/projects/binary_operations2/binary_operations2/binary_operations.vhd".
     Summary:
 Unit <binary_operations> synthesized.
 
@@ -282,12 +282,12 @@ Cross Clock Domains Report:
 
 
 Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 6.45 secs
+Total CPU time to Xst completion: 6.50 secs
  
 --> 
 
 
-Total memory usage is 383324 kilobytes
+Total memory usage is 382592 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

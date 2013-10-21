@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=/home/piter/fpga/projects/binary_operations/binary_operations.ncd
-OUTFILE=/home/piter/fpga/projects/binary_operations/binary_operations.bit
+INFILE=/home/piter/fpga/projects/binary_operations2/binary_operations2/binary_operations.ncd
+OUTFILE=/home/piter/fpga/projects/binary_operations2/binary_operations2/binary_operations.bit
 FAMILY=Spartan6
 PART=xc6slx45-3csg324
-WORKINGDIR=/home/piter/fpga/projects/binary_operations
+WORKINGDIR=/home/piter/fpga/projects/binary_operations2/binary_operations2
 LICENSE=WebPack
 USER_INFO=210814340_0_0_917

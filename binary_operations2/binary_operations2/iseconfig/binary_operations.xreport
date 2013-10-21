@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2013-10-20T16:02:40</DateModified>
+  <DateModified>2013-10-20T23:31:51</DateModified>
   <ModuleName>binary_operations</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/piter/fpga/projects/binary_operations/iseconfig/binary_operations.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/piter/fpga/projects/binary_operations/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/piter/fpga/projects/binary_operations2/binary_operations2/iseconfig/binary_operations.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/piter/fpga/projects/binary_operations2/binary_operations2/</ImplementationReportsDirectory>
   <DateInitialized>2013-10-20T15:33:23</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

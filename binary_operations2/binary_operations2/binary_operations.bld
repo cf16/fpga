@@ -6,7 +6,8 @@ ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc6slx45-csg324-3
 binary_operations.ngc binary_operations.ngd
 
 Reading NGO file
-"/home/piter/fpga/projects/binary_operations/binary_operations.ngc" ...
+"/home/piter/fpga/projects/binary_operations2/binary_operations2/binary_operatio
+ns.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
