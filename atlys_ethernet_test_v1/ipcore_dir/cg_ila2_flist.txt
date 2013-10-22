@@ -1,0 +1,15 @@
+# Output products list for <cg_ila2>
+_xmsgs\pn_parser.xmsgs
+cg_ila2.asy
+cg_ila2.cdc
+cg_ila2.gise
+cg_ila2.ngc
+cg_ila2.v
+cg_ila2.veo
+cg_ila2.vhd
+cg_ila2.vho
+cg_ila2.xco
+cg_ila2.xise
+cg_ila2_flist.txt
+cg_ila2_readme.txt
+cg_ila2_xmdf.tcl

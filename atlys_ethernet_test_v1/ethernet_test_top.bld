@@ -1,0 +1,64 @@
+Release 14.6 ngdbuild P.68d (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.6/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -filter
+iseconfig/filter.filter -intstyle ise -dd _ngo -sd ipcore_dir -sd coregen -sd
+simple_gemac -nt timestamp -uc ethernet_test_top.ucf -p xc6slx45-csg324-3
+ethernet_test_top.ngc ethernet_test_top.ngd
+
+Reading NGO file
+"/home/piter/fpga/projects/atlys_ethernet_test_v1/ethernet_test_top.ngc" ...
+Loading design module "ipcore_dir/cg_ila1.ngc"...
+Loading design module "ipcore_dir/cg_icon.ngc"...
+Loading design module "ipcore_dir/cg_ila2.ngc"...
+Loading design module "simple_gemac/fifo_xlnx_64x36_2clk.ngc"...
+Loading design module "coregen/fifo_xlnx_512x36_2clk.ngc"...
+ERROR:NgdBuild:1317 - Using core chipscope_ila_v1 requires a ChipScopePro
+   license.  The following blocks are instances of core chipscope_ila_v1:
+	/ethernet_test_top/ethernet_test_top
+	/ethernet_test_top/cg_ila1
+	/ethernet_test_top/cg_ila2
+
+-----------------------------------------------
+INFO:Security:71 - If a license for part 'xc6slx45' is available, it will be
+possible to use 'ChipScopePro_TDP' instead of 'ChipScopePro'.
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is piter, on host unknown.
+WARNING:Security:9b - No 'ChipScopePro' feature version 2013.06 was available
+for part 'xc6slx45'.
+ERROR:Security:12 - No 'xc6slx45' feature version 2013.06 was available (-15),
+     so 'ChipScopePro_TDP' may not be used.
+
+-----------------------------------------------
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       ChipScopePro
+Server name:   localhost
+License path: 
+/home/piter/.Xilinx/Xilinx.lic:/opt/Xilinx/14.6/ISE_DS/ISE//data/*.lic:/opt/Xili
+nx/14.6/ISE_DS/ISE//coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.6/ISE_DS/ISE
+//coregen/core_licenses/XilinxFree.lic:@localhost:
+FLEXnet Licensing error:-15,570.  System Error: 115 "Operation now in progress"
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       xc6slx45
+Server name:   localhost
+License path: 
+/home/piter/.Xilinx/Xilinx.lic:/opt/Xilinx/14.6/ISE_DS/ISE//data/*.lic:/opt/Xili
+nx/14.6/ISE_DS/ISE//coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.6/ISE_DS/ISE
+//coregen/core_licenses/XilinxFree.lic:@localhost:
+FLEXnet Licensing error:-15,570.  System Error: 115 "Operation now in progress"
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+-----------------------------------------------
+ERROR:NgdBuild:1316 - A problem was encountered attempting to get the
+   ChipScopePro license. 

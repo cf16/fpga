@@ -1,0 +1,14 @@
+# Output products list for <cg_icon>
+_xmsgs\pn_parser.xmsgs
+cg_icon.asy
+cg_icon.gise
+cg_icon.ngc
+cg_icon.v
+cg_icon.veo
+cg_icon.vhd
+cg_icon.vho
+cg_icon.xco
+cg_icon.xise
+cg_icon_flist.txt
+cg_icon_readme.txt
+cg_icon_xmdf.tcl

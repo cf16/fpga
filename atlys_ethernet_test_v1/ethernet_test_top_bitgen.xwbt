@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Administrator\Desktop\Xilinx\atlys_ethernet_test_v1\atlys_ethernet_test_v1\ethernet_test_top.ncd
+OUTFILE=C:\Users\Administrator\Desktop\Xilinx\atlys_ethernet_test_v1\atlys_ethernet_test_v1\ethernet_test_top.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=C:\Users\Administrator\Desktop\Xilinx\atlys_ethernet_test_v1\atlys_ethernet_test_v1
+LICENSE=WebPack
+USER_INFO=0_0_0

@@ -1,0 +1,3 @@
+verilog work "coregen/fifo_xlnx_512x36_2clk.v"
+verilog work "simple_gemac/fifo_xlnx_512x36_tb.v"
+verilog work "C:/Xilinx/12.4/ISE_DS/ISE//verilog/src/glbl.v"

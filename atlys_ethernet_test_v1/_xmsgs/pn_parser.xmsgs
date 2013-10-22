@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/edge_detect.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/ethernet_test_top.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/address_filter.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/crc.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/delay_line.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/fifo36_to_ll8.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/fifo_2clock_cascade.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/fifo_short.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/flow_ctrl_rx.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/flow_ctrl_tx.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/ll8_shortfifo.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/ll8_to_fifo36.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/ll8_to_txmac.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/miim/eth_clockgen.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/miim/eth_miim.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/miim/eth_outputcontrol.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/miim/eth_shiftreg.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/miim/fifo_2clock.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/oneshot_2clk.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/reset_sync.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/rxmac_to_ll8.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/simple_gemac.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/simple_gemac_rx.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/simple_gemac_tx.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/simple_gemac_wb.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/piter/fpga/projects/atlys_ethernet_test_v1/simple_gemac/simple_gemac_wrapper.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

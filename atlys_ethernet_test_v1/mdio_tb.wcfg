@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Administrator/Desktop/Xilinx/atlys_ethernet_test/mdio_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mdio_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/mdio_tb/GMII_GTX_CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GMII_GTX_CLK</obj_property>
+      <obj_property name="ObjectShortName">GMII_GTX_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/GMII_TX_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GMII_TX_EN</obj_property>
+      <obj_property name="ObjectShortName">GMII_TX_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/GMII_TX_ER" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GMII_TX_ER</obj_property>
+      <obj_property name="ObjectShortName">GMII_TX_ER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/GMII_TXD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">GMII_TXD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">GMII_TXD[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/rx_f36_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_f36_data[35:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_f36_data[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/rx_f36_src_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_f36_src_rdy</obj_property>
+      <obj_property name="ObjectShortName">rx_f36_src_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/tx_f36_dst_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_f36_dst_rdy</obj_property>
+      <obj_property name="ObjectShortName">tx_f36_dst_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/wb_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_ack</obj_property>
+      <obj_property name="ObjectShortName">wb_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/wb_dat_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/mdc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mdc</obj_property>
+      <obj_property name="ObjectShortName">mdc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/debug" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">debug[31:0]</obj_property>
+      <obj_property name="ObjectShortName">debug[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/mdio" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mdio</obj_property>
+      <obj_property name="ObjectShortName">mdio</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/clk125" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk125</obj_property>
+      <obj_property name="ObjectShortName">clk125</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/GMII_RX_CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GMII_RX_CLK</obj_property>
+      <obj_property name="ObjectShortName">GMII_RX_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/GMII_RX_DV" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GMII_RX_DV</obj_property>
+      <obj_property name="ObjectShortName">GMII_RX_DV</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/GMII_RX_ER" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GMII_RX_ER</obj_property>
+      <obj_property name="ObjectShortName">GMII_RX_ER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/GMII_RXD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">GMII_RXD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">GMII_RXD[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/sys_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/rx_f36_dst_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_f36_dst_rdy</obj_property>
+      <obj_property name="ObjectShortName">rx_f36_dst_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/tx_f36_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_f36_data[35:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_f36_data[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/tx_f36_src_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_f36_src_rdy</obj_property>
+      <obj_property name="ObjectShortName">tx_f36_src_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/wb_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_clk</obj_property>
+      <obj_property name="ObjectShortName">wb_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/wb_rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_rst</obj_property>
+      <obj_property name="ObjectShortName">wb_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/wb_stb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_stb</obj_property>
+      <obj_property name="ObjectShortName">wb_stb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/wb_cyc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_cyc</obj_property>
+      <obj_property name="ObjectShortName">wb_cyc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/wb_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_we</obj_property>
+      <obj_property name="ObjectShortName">wb_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/wb_adr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_adr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_adr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/wb_dat_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/uut/simple_gemac_wb/RStat" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RStat</obj_property>
+      <obj_property name="ObjectShortName">RStat</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/uut/simple_gemac_wb/MIICOMMAND" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MIICOMMAND[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MIICOMMAND[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/uut/simple_gemac_wb/eth_miim/clkgen/Mdc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Mdc</obj_property>
+      <obj_property name="ObjectShortName">Mdc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mdio_tb/uut/simple_gemac_wb/eth_miim/clkgen/Clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+</wave_config>

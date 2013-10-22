@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Administrator/Desktop/Xilinx/atlys_ethernet_test/simple_gemac_wrapper_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="simple_gemac_wrapper_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="142" />
+   <wvobject fp_name="/simple_gemac_wrapper_tb/wb_rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_rst</obj_property>
+      <obj_property name="ObjectShortName">wb_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/GMII_RX_DV" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GMII_RX_DV</obj_property>
+      <obj_property name="ObjectShortName">GMII_RX_DV</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/GMII_RX_ER" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GMII_RX_ER</obj_property>
+      <obj_property name="ObjectShortName">GMII_RX_ER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/GMII_TX_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GMII_TX_EN</obj_property>
+      <obj_property name="ObjectShortName">GMII_TX_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/GMII_TX_ER" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GMII_TX_ER</obj_property>
+      <obj_property name="ObjectShortName">GMII_TX_ER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/GMII_GTX_CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GMII_GTX_CLK</obj_property>
+      <obj_property name="ObjectShortName">GMII_GTX_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/GMII_RXD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">GMII_RXD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">GMII_RXD[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/GMII_TXD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">GMII_TXD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">GMII_TXD[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/rx_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_valid</obj_property>
+      <obj_property name="ObjectShortName">rx_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/rx_error" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_error</obj_property>
+      <obj_property name="ObjectShortName">rx_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/rx_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_ack</obj_property>
+      <obj_property name="ObjectShortName">rx_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/tx_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_ack</obj_property>
+      <obj_property name="ObjectShortName">tx_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/tx_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_valid</obj_property>
+      <obj_property name="ObjectShortName">tx_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/tx_error" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_error</obj_property>
+      <obj_property name="ObjectShortName">tx_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/rx_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/tx_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/GMII_RX_CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GMII_RX_CLK</obj_property>
+      <obj_property name="ObjectShortName">GMII_RX_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/wb_dat_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/wb_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_ack</obj_property>
+      <obj_property name="ObjectShortName">wb_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/tx_f36_dst_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_f36_dst_rdy</obj_property>
+      <obj_property name="ObjectShortName">tx_f36_dst_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_f36_dst_rdy_int1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_f36_dst_rdy_int1</obj_property>
+      <obj_property name="ObjectShortName">tx_f36_dst_rdy_int1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/rx_f36_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_f36_data[35:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_f36_data[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/rx_f36_src_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_f36_src_rdy</obj_property>
+      <obj_property name="ObjectShortName">rx_f36_src_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/rx_f36_dst_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_f36_dst_rdy</obj_property>
+      <obj_property name="ObjectShortName">rx_f36_dst_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/eth_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">eth_clk</obj_property>
+      <obj_property name="ObjectShortName">eth_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/wb_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_clk</obj_property>
+      <obj_property name="ObjectShortName">wb_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/sys_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/pause_time" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pause_time[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pause_time[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/pause_req" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pause_req</obj_property>
+      <obj_property name="ObjectShortName">pause_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/FORCE_DAT_ERR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FORCE_DAT_ERR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">FORCE_DAT_ERR[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/FORCE_ERR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">FORCE_ERR</obj_property>
+      <obj_property name="ObjectShortName">FORCE_ERR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/wb_dat_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/wb_adr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_adr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_adr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/wb_stb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_stb</obj_property>
+      <obj_property name="ObjectShortName">wb_stb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/wb_cyc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_cyc</obj_property>
+      <obj_property name="ObjectShortName">wb_cyc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/wb_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_we</obj_property>
+      <obj_property name="ObjectShortName">wb_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/tx_f36_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_f36_data[35:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_f36_data[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/tx_f36_src_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_f36_src_rdy</obj_property>
+      <obj_property name="ObjectShortName">tx_f36_src_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/pkt_rom" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pkt_rom[0:1023,7:0]</obj_property>
+      <obj_property name="ObjectShortName">pkt_rom[0:1023,7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/ROMFile" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ROMFile[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">ROMFile[1023:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/rx_adapt/xfer_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">xfer_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">xfer_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider44" type="divider">
+      <obj_property name="label">TX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/simple_gemac/simple_gemac_tx/tx_state" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">tx_state[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_state[7:0]</obj_property>
+      <obj_property name="label">tx_state[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider98" type="divider">
+      <obj_property name="label">tx_2clkf_fifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/wclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wclk</obj_property>
+      <obj_property name="ObjectShortName">wclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/datain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datain[35:0]</obj_property>
+      <obj_property name="ObjectShortName">datain[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/src_rdy_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">src_rdy_i</obj_property>
+      <obj_property name="ObjectShortName">src_rdy_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/dst_rdy_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dst_rdy_o</obj_property>
+      <obj_property name="ObjectShortName">dst_rdy_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/space" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">space[15:0]</obj_property>
+      <obj_property name="ObjectShortName">space[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/rclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rclk</obj_property>
+      <obj_property name="ObjectShortName">rclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[35:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/src_rdy_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">src_rdy_o</obj_property>
+      <obj_property name="ObjectShortName">src_rdy_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/dst_rdy_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dst_rdy_i</obj_property>
+      <obj_property name="ObjectShortName">dst_rdy_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/occupied" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">occupied[15:0]</obj_property>
+      <obj_property name="ObjectShortName">occupied[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/arst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">arst</obj_property>
+      <obj_property name="ObjectShortName">arst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/data_int1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_int1[35:0]</obj_property>
+      <obj_property name="ObjectShortName">data_int1[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/data_int2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_int2[35:0]</obj_property>
+      <obj_property name="ObjectShortName">data_int2[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/src_rdy_int1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">src_rdy_int1</obj_property>
+      <obj_property name="ObjectShortName">src_rdy_int1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/src_rdy_int2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">src_rdy_int2</obj_property>
+      <obj_property name="ObjectShortName">src_rdy_int2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/dst_rdy_int1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dst_rdy_int1</obj_property>
+      <obj_property name="ObjectShortName">dst_rdy_int1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/dst_rdy_int2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dst_rdy_int2</obj_property>
+      <obj_property name="ObjectShortName">dst_rdy_int2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/level_wclk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">level_wclk[5:0]</obj_property>
+      <obj_property name="ObjectShortName">level_wclk[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/level_rclk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">level_rclk[5:0]</obj_property>
+      <obj_property name="ObjectShortName">level_rclk[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/s1_space" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s1_space[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s1_space[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/s1_occupied" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s1_occupied[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s1_occupied[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/s2_space" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s2_space[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s2_space[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/s2_occupied" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s2_occupied[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s2_occupied[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/l_space" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">l_space[15:0]</obj_property>
+      <obj_property name="ObjectShortName">l_space[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/l_occupied" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">l_occupied[15:0]</obj_property>
+      <obj_property name="ObjectShortName">l_occupied[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider148" type="divider">
+      <obj_property name="label">fifo_2clock</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/wclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wclk</obj_property>
+      <obj_property name="ObjectShortName">wclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/datain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datain[35:0]</obj_property>
+      <obj_property name="ObjectShortName">datain[35:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/src_rdy_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">src_rdy_i</obj_property>
+      <obj_property name="ObjectShortName">src_rdy_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/dst_rdy_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dst_rdy_o</obj_property>
+      <obj_property name="ObjectShortName">dst_rdy_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/space" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">space[15:0]</obj_property>
+      <obj_property name="ObjectShortName">space[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/rclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rclk</obj_property>
+      <obj_property name="ObjectShortName">rclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[35:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/src_rdy_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">src_rdy_o</obj_property>
+      <obj_property name="ObjectShortName">src_rdy_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/dst_rdy_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dst_rdy_i</obj_property>
+      <obj_property name="ObjectShortName">dst_rdy_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/occupied" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">occupied[15:0]</obj_property>
+      <obj_property name="ObjectShortName">occupied[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/arst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">arst</obj_property>
+      <obj_property name="ObjectShortName">arst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/level_rclk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">level_rclk[6:0]</obj_property>
+      <obj_property name="ObjectShortName">level_rclk[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/level_wclk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">level_wclk[6:0]</obj_property>
+      <obj_property name="ObjectShortName">level_wclk[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/write" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/read" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider75" type="divider">
+      <obj_property name="label">fifo36_to_ll8</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/clear" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/f36_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">f36_data[35:0]</obj_property>
+      <obj_property name="ObjectShortName">f36_data[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/f36_src_rdy_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">f36_src_rdy_i</obj_property>
+      <obj_property name="ObjectShortName">f36_src_rdy_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/f36_dst_rdy_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">f36_dst_rdy_o</obj_property>
+      <obj_property name="ObjectShortName">f36_dst_rdy_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/ll_sof_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ll_sof_n</obj_property>
+      <obj_property name="ObjectShortName">ll_sof_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/ll_eof_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ll_eof_n</obj_property>
+      <obj_property name="ObjectShortName">ll_eof_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/ll_src_rdy_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ll_src_rdy_n</obj_property>
+      <obj_property name="ObjectShortName">ll_src_rdy_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/ll_dst_rdy_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ll_dst_rdy_n</obj_property>
+      <obj_property name="ObjectShortName">ll_dst_rdy_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/debug" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">debug[31:0]</obj_property>
+      <obj_property name="ObjectShortName">debug[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/ll_sof" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ll_sof</obj_property>
+      <obj_property name="ObjectShortName">ll_sof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/ll_eof" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ll_eof</obj_property>
+      <obj_property name="ObjectShortName">ll_eof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/ll_src_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ll_src_rdy</obj_property>
+      <obj_property name="ObjectShortName">ll_src_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/ll_dst_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ll_dst_rdy</obj_property>
+      <obj_property name="ObjectShortName">ll_dst_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/f36_sof" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">f36_sof</obj_property>
+      <obj_property name="ObjectShortName">f36_sof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/f36_eof" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">f36_eof</obj_property>
+      <obj_property name="ObjectShortName">f36_eof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/f36_occ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">f36_occ</obj_property>
+      <obj_property name="ObjectShortName">f36_occ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/advance" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">advance</obj_property>
+      <obj_property name="ObjectShortName">advance</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/end_early" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">end_early</obj_property>
+      <obj_property name="ObjectShortName">end_early</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/ll_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ll_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ll_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/fifo36_to_ll8/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider59" type="divider">
+      <obj_property name="label">tx_sfifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_sfifo/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_sfifo/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_sfifo/clear" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_sfifo/datain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datain[7:0]</obj_property>
+      <obj_property name="ObjectShortName">datain[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_sfifo/sof_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sof_i</obj_property>
+      <obj_property name="ObjectShortName">sof_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_sfifo/eof_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">eof_i</obj_property>
+      <obj_property name="ObjectShortName">eof_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_sfifo/error_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">error_i</obj_property>
+      <obj_property name="ObjectShortName">error_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_sfifo/src_rdy_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">src_rdy_i</obj_property>
+      <obj_property name="ObjectShortName">src_rdy_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_sfifo/dst_rdy_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dst_rdy_o</obj_property>
+      <obj_property name="ObjectShortName">dst_rdy_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_sfifo/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_sfifo/sof_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sof_o</obj_property>
+      <obj_property name="ObjectShortName">sof_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_sfifo/eof_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">eof_o</obj_property>
+      <obj_property name="ObjectShortName">eof_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_sfifo/error_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">error_o</obj_property>
+      <obj_property name="ObjectShortName">error_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_sfifo/src_rdy_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">src_rdy_o</obj_property>
+      <obj_property name="ObjectShortName">src_rdy_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/tx_sfifo/dst_rdy_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dst_rdy_i</obj_property>
+      <obj_property name="ObjectShortName">dst_rdy_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider45" type="divider">
+      <obj_property name="label">ll8 to txmac</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/ll8_to_txmac/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/ll8_to_txmac/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/ll8_to_txmac/clear" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/ll8_to_txmac/ll_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ll_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ll_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/ll8_to_txmac/ll_sof" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ll_sof</obj_property>
+      <obj_property name="ObjectShortName">ll_sof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/ll8_to_txmac/ll_eof" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ll_eof</obj_property>
+      <obj_property name="ObjectShortName">ll_eof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/ll8_to_txmac/ll_src_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ll_src_rdy</obj_property>
+      <obj_property name="ObjectShortName">ll_src_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/ll8_to_txmac/ll_dst_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ll_dst_rdy</obj_property>
+      <obj_property name="ObjectShortName">ll_dst_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/ll8_to_txmac/tx_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/ll8_to_txmac/tx_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_valid</obj_property>
+      <obj_property name="ObjectShortName">tx_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/ll8_to_txmac/tx_error" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_error</obj_property>
+      <obj_property name="ObjectShortName">tx_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/ll8_to_txmac/tx_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_ack</obj_property>
+      <obj_property name="ObjectShortName">tx_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simple_gemac_wrapper_tb/simple_gemac_wrapper/ll8_to_txmac/xfer_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">xfer_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">xfer_state[2:0]</obj_property>
+   </wvobject>
+</wave_config>

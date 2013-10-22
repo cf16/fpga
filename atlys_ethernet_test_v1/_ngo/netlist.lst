@@ -1,0 +1,6 @@
+/home/piter/fpga/projects/atlys_ethernet_test_v1/ethernet_test_top.ngc 1382483994
+ipcore_dir/cg_ila1.ngc 1301649744
+ipcore_dir/cg_icon.ngc 1301580420
+ipcore_dir/cg_ila2.ngc 1301580990
+simple_gemac/fifo_xlnx_64x36_2clk.ngc 1298045150
+coregen/fifo_xlnx_512x36_2clk.ngc 1298044238

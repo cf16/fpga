@@ -1,0 +1,2 @@
+xst -intstyle ise -filter "/home/piter/fpga/projects/atlys_ethernet_test_v1/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/atlys_ethernet_test_v1/ethernet_test_top.xst" -ofn "/home/piter/fpga/projects/atlys_ethernet_test_v1/ethernet_test_top.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -sd coregen -sd simple_gemac -nt timestamp -uc ethernet_test_top.ucf -p xc6slx45-csg324-3 ethernet_test_top.ngc ethernet_test_top.ngd  
