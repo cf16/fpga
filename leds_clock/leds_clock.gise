@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="leds_clock.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="vhdlmodule1.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="vhdlmodule1.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="vhdlmodule1.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="vhdlmodule1.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="vhdlmodule1.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="vhdlmodule1.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="vhdlmodule1.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="vhdlmodule1.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="vhdlmodule1.xst"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="vhdlmodule1_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="vhdlmodule1_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="vhdlmodule1_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1382670608" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1382670608">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1382670608" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6103515375999312368" xil_pn:start_ts="1382670608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1382670608" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3579356365707559361" xil_pn:start_ts="1382670608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1382670608" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1382670608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1382670608" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="2881796387404167410" xil_pn:start_ts="1382670608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1382670608" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8977612015756273942" xil_pn:start_ts="1382670608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1382670608" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-1002019751923505205" xil_pn:start_ts="1382670608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1382670617" xil_pn:in_ck="6524252416144849845" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-3975448558985933456" xil_pn:start_ts="1382670608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="vhdlmodule1.lso"/>
+      <outfile xil_pn:name="vhdlmodule1.ngc"/>
+      <outfile xil_pn:name="vhdlmodule1.ngr"/>
+      <outfile xil_pn:name="vhdlmodule1.prj"/>
+      <outfile xil_pn:name="vhdlmodule1.stx"/>
+      <outfile xil_pn:name="vhdlmodule1.syr"/>
+      <outfile xil_pn:name="vhdlmodule1.xst"/>
+      <outfile xil_pn:name="vhdlmodule1_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1382670617" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-3351663603227985251" xil_pn:start_ts="1382670617">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+    </transform>
+    <transform xil_pn:end_ts="1382670624" xil_pn:in_ck="6524252416144841099" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4080694703278499550" xil_pn:start_ts="1382670617">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="vhdlmodule1.bld"/>
+      <outfile xil_pn:name="vhdlmodule1_ngdbuild.xrpt"/>
+    </transform>
+  </transforms>
+
+</generated_project>

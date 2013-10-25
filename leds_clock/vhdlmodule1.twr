@@ -1,0 +1,71 @@
+--------------------------------------------------------------------------------
+Release 14.6 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.6/ISE_DS/ISE/bin/lin64/unwrapped/trce -filter
+/home/piter/fpga/projects/leds_clock/iseconfig/filter.filter -intstyle ise -v 3
+-s 3 -n 3 -fastpaths -xml vhdlmodule1.twx vhdlmodule1.ncd -o vhdlmodule1.twr
+vhdlmodule1.pcf
+
+Design file:              vhdlmodule1.ncd
+Physical constraint file: vhdlmodule1.pcf
+Device,package,speed:     xc6slx45,csg324,C,-3 (PRODUCTION 1.23 2013-06-08)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock CLKIN to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+AN0         |         8.552(R)|      SLOW  |         4.679(R)|      FAST  |CLKIN_BUFGP       |   0.000|
+AN1         |         8.316(R)|      SLOW  |         4.474(R)|      FAST  |CLKIN_BUFGP       |   0.000|
+AN2         |         8.548(R)|      SLOW  |         4.629(R)|      FAST  |CLKIN_BUFGP       |   0.000|
+AN3         |         8.345(R)|      SLOW  |         4.515(R)|      FAST  |CLKIN_BUFGP       |   0.000|
+LED<0>      |         8.549(R)|      SLOW  |         4.625(R)|      FAST  |CLKIN_BUFGP       |   0.000|
+LED<1>      |         8.250(R)|      SLOW  |         4.445(R)|      FAST  |CLKIN_BUFGP       |   0.000|
+LED<2>      |         8.723(R)|      SLOW  |         4.743(R)|      FAST  |CLKIN_BUFGP       |   0.000|
+LED<3>      |         9.225(R)|      SLOW  |         5.023(R)|      FAST  |CLKIN_BUFGP       |   0.000|
+LED<5>      |         8.275(R)|      SLOW  |         4.453(R)|      FAST  |CLKIN_BUFGP       |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLKIN
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLKIN          |    3.228|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Fri Oct 25 05:24:59 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 435 MB
+
+
+
