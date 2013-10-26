@@ -1,0 +1,8 @@
+Release 14.6 Drc P.68d (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sun Oct 27 00:45:41 2013
+
+drc -z entity1.ncd entity1.pcf
+
+DRC detected 0 errors and 0 warnings.

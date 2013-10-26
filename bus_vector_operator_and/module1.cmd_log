@@ -1,0 +1,1 @@
+xst -intstyle ise -filter "/home/piter/fpga/projects/bus_vector_operator_and/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/bus_vector_operator_and/module1.xst" -ofn "/home/piter/fpga/projects/bus_vector_operator_and/module1.syr" 
