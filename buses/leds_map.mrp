@@ -12,7 +12,7 @@ Target Device  : xc6slx45
 Target Package : csg324
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Sat Oct 26 19:05:54 2013
+Mapped Date    : Sat Oct 26 20:30:52 2013
 
 Design Summary
 --------------
@@ -28,8 +28,8 @@ Slice Logic Distribution:
   Number of LUT Flip Flop pairs used:            0
 
 IO Utilization:
-  Number of bonded IOBs:                        16 out of     218    7%
-    Number of LOCed IOBs:                       16 out of      16  100%
+  Number of bonded IOBs:                        13 out of     218    5%
+    Number of LOCed IOBs:                       13 out of      13  100%
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of     116    0%
@@ -54,7 +54,7 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of SUSPEND_SYNCs:                       0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                1.00
+Average Fanout of Non-Clock Nets:                1.40
 
 Peak Memory Usage:  725 MB
 Total REAL time to MAP completion:  9 secs 
@@ -98,9 +98,14 @@ INFO:Pack:1650 - Map created a placed design.
 
 Section 4 - Removed Logic Summary
 ---------------------------------
+   1 block(s) optimized away
 
 Section 5 - Removed Logic
 -------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+VCC 		XST_VCC
 
 Section 6 - IOB Properties
 --------------------------
@@ -109,22 +114,19 @@ Section 6 - IOB Properties
 | IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
 |                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| LED2<0>                            | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| LED2<1>                            | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
 | LED<0>                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
 | LED<1>                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
 | LED<2>                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
 | LED<3>                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
 | LED<4>                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
 | LED<5>                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
-| LED<6>                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
-| LED<7>                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
 | switches<0>                        | IOB              | INPUT     | LVTTL                |       |          |      |              |          |          |
 | switches<1>                        | IOB              | INPUT     | LVTTL                |       |          |      |              |          |          |
 | switches<2>                        | IOB              | INPUT     | LVTTL                |       |          |      |              |          |          |
 | switches<3>                        | IOB              | INPUT     | LVTTL                |       |          |      |              |          |          |
 | switches<4>                        | IOB              | INPUT     | LVTTL                |       |          |      |              |          |          |
-| switches<5>                        | IOB              | INPUT     | LVTTL                |       |          |      |              |          |          |
-| switches<6>                        | IOB              | INPUT     | LVTTL                |       |          |      |              |          |          |
-| switches<7>                        | IOB              | INPUT     | LVTTL                |       |          |      |              |          |          |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Section 7 - RPMs

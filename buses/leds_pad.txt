@@ -1,7 +1,7 @@
 Release 14.6 - par P.68d (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Sat Oct 26 19:06:17 2013
+Sat Oct 26 20:31:17 2013
 
 
 INFO: The IO information is provided in three file formats as part of the Place and Route (PAR) process.  These formats are:
@@ -95,7 +95,7 @@ Pinout by Pin Number:
 |E1        |           |IOBS     |IO_L50N_M3BA2_3              |UNUSED   |           |3             |          |         |           |         |         |          |           |                |
 |E2        |           |         |VCCO_3                       |         |           |3             |          |         |           |         |any******|          |           |                |
 |E3        |           |IOBM     |IO_L50P_M3WE_3               |UNUSED   |           |3             |          |         |           |         |         |          |           |                |
-|E4        |switches<7>|IOB      |IO_L54P_M3RESET_3            |INPUT    |LVTTL      |3             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
+|E4        |           |IOBM     |IO_L54P_M3RESET_3            |UNUSED   |           |3             |          |         |           |         |         |          |           |                |
 |E5        |           |         |VCCAUX                       |         |           |              |          |         |           |         |2.5      |          |           |                |
 |E6        |           |         |NC                           |         |           |              |          |         |           |         |         |          |           |                |
 |E7        |           |         |NC                           |         |           |              |          |         |           |         |         |          |           |                |
@@ -247,7 +247,7 @@ Pinout by Pin Number:
 |N9        |           |IOBS     |IO_L22N_2                    |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |N10       |           |IOBM     |IO_L20P_2                    |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |N11       |           |IOBS     |IO_L15N_2                    |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
-|N12       |LED<7>     |IOB      |IO_L13P_M1_2                 |OUTPUT   |LVTTL      |2             |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
+|N12       |LED2<1>    |IOB      |IO_L13P_M1_2                 |OUTPUT   |LVTTL      |2             |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
 |N13       |           |         |GND                          |         |           |              |          |         |           |         |         |          |           |                |
 |N14       |LED<2>     |IOB      |IO_L53N_VREF_1               |OUTPUT   |LVTTL      |1             |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
 |N15       |           |IOBM     |IO_L50P_M1UDQS_1             |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
@@ -269,14 +269,14 @@ Pinout by Pin Number:
 |P13       |           |         |CMPCS_B_2                    |         |           |              |          |         |           |         |         |          |           |                |
 |P14       |           |         |VCCAUX                       |         |           |              |          |         |           |         |2.5      |          |           |                |
 |P15       |switches<3>|IOB      |IO_L74P_AWAKE_1              |INPUT    |LVTTL      |1             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
-|P16       |LED<6>     |IOB      |IO_L74N_DOUT_BUSY_1          |OUTPUT   |LVTTL      |1             |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
+|P16       |LED2<0>    |IOB      |IO_L74N_DOUT_BUSY_1          |OUTPUT   |LVTTL      |1             |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
 |P17       |           |IOBM     |IO_L49P_M1DQ10_1             |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |P18       |           |IOBS     |IO_L49N_M1DQ11_1             |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |R1        |           |         |GND                          |         |           |              |          |         |           |         |         |          |           |                |
 |R2        |           |         |VCCO_3                       |         |           |3             |          |         |           |         |any******|          |           |                |
 |R3        |           |IOBM     |IO_L62P_D5_2                 |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |R4        |           |         |GND                          |         |           |              |          |         |           |         |         |          |           |                |
-|R5        |switches<5>|IOB      |IO_L48P_D7_2                 |INPUT    |LVTTL      |2             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
+|R5        |           |IOBM     |IO_L48P_D7_2                 |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |R6        |           |         |VCCO_2                       |         |           |2             |          |         |           |         |3.30     |          |           |                |
 |R7        |           |IOBM     |IO_L46P_2                    |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |R8        |           |IOBM     |IO_L31P_GCLK31_D14_2         |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
@@ -294,7 +294,7 @@ Pinout by Pin Number:
 |T2        |           |IOBM     |IO_L33P_M3DQ12_3             |UNUSED   |           |3             |          |         |           |         |         |          |           |                |
 |T3        |           |IOBS     |IO_L62N_D6_2                 |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |T4        |           |IOBM     |IO_L63P_2                    |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
-|T5        |switches<6>|IOB      |IO_L48N_RDWR_B_VREF_2        |INPUT    |LVTTL      |2             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
+|T5        |           |IOBS     |IO_L48N_RDWR_B_VREF_2        |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |T6        |           |IOBM     |IO_L45P_2                    |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |T7        |           |IOBS     |IO_L46N_2                    |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |T8        |           |IOBS     |IO_L31N_GCLK30_D15_2         |UNUSED   |           |2             |          |         |           |         |         |          |           |                |

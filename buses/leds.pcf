@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.68d on Sat Oct 26 19:06:03 2013
+// Written by: Map P.68d on Sat Oct 26 20:31:01 2013
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -8,16 +8,13 @@ COMP "switches<1>" LOCATE = SITE "D14" LEVEL 1;
 COMP "switches<2>" LOCATE = SITE "C14" LEVEL 1;
 COMP "switches<3>" LOCATE = SITE "P15" LEVEL 1;
 COMP "switches<4>" LOCATE = SITE "P12" LEVEL 1;
-COMP "switches<5>" LOCATE = SITE "R5" LEVEL 1;
-COMP "switches<6>" LOCATE = SITE "T5" LEVEL 1;
-COMP "switches<7>" LOCATE = SITE "E4" LEVEL 1;
 COMP "LED<0>" LOCATE = SITE "U18" LEVEL 1;
 COMP "LED<1>" LOCATE = SITE "M14" LEVEL 1;
 COMP "LED<2>" LOCATE = SITE "N14" LEVEL 1;
 COMP "LED<3>" LOCATE = SITE "L14" LEVEL 1;
 COMP "LED<4>" LOCATE = SITE "M13" LEVEL 1;
 COMP "LED<5>" LOCATE = SITE "D4" LEVEL 1;
-COMP "LED<6>" LOCATE = SITE "P16" LEVEL 1;
-COMP "LED<7>" LOCATE = SITE "N12" LEVEL 1;
+COMP "LED2<0>" LOCATE = SITE "P16" LEVEL 1;
+COMP "LED2<1>" LOCATE = SITE "N12" LEVEL 1;
 SCHEMATIC END;
 

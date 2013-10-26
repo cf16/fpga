@@ -37,18 +37,17 @@ Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-switches<0>    |LED<0>         |   12.649|
-switches<1>    |LED<1>         |   11.889|
-switches<2>    |LED<2>         |   11.530|
-switches<3>    |LED<3>         |    7.856|
-switches<4>    |LED<4>         |    8.763|
-switches<5>    |LED<5>         |   14.510|
-switches<6>    |LED<6>         |    8.641|
-switches<7>    |LED<7>         |   13.815|
+switches<0>    |LED2<1>        |   16.000|
+switches<0>    |LED<1>         |   12.949|
+switches<1>    |LED2<0>        |   13.519|
+switches<1>    |LED<2>         |   11.586|
+switches<2>    |LED<3>         |   12.232|
+switches<3>    |LED<4>         |    7.856|
+switches<4>    |LED<5>         |   15.965|
 ---------------+---------------+---------+
 
 
-Analysis completed Sat Oct 26 19:06:25 2013 
+Analysis completed Sat Oct 26 20:31:25 2013 
 --------------------------------------------------------------------------------
 
 Trace Settings:

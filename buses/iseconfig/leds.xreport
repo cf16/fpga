@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2013-10-26T19:03:56</DateModified>
+  <DateModified>2013-10-26T19:35:28</DateModified>
   <ModuleName>leds</ModuleName>
-  <SummaryTimeStamp>2013-10-26T19:03:55</SummaryTimeStamp>
+  <SummaryTimeStamp>2013-10-26T19:19:09</SummaryTimeStamp>
   <SavedFilePath>/home/piter/fpga/projects/buses/iseconfig/leds.xreport</SavedFilePath>
   <ImplementationReportsDirectory>/home/piter/fpga/projects/buses</ImplementationReportsDirectory>
   <DateInitialized>2013-10-26T14:28:36</DateInitialized>
