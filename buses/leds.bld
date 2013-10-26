@@ -1,0 +1,36 @@
+Release 14.6 ngdbuild P.68d (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.6/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -filter
+iseconfig/filter.filter -intstyle ise -dd _ngo -nt timestamp -uc
+constraints1.ucf -p xc6slx45-csg324-3 leds.ngc leds.ngd
+
+Reading NGO file "/home/piter/fpga/projects/buses/leds.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "constraints1.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 403528 kilobytes
+
+Writing NGD file "leds.ngd" ...
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+Writing NGDBUILD log file "leds.bld"...

@@ -1,0 +1,54 @@
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 leds.ngc leds.ngd  
+map -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o leds_map.ncd leds.ngd leds.pcf 
+par -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off leds_map.ncd leds.ncd leds.pcf 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 leds.ngc leds.ngd  
+map -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o leds_map.ncd leds.ngd leds.pcf 
+par -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off leds_map.ncd leds.ncd leds.pcf 
+trce -filter /home/piter/fpga/projects/buses/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml leds.twx leds.ncd -o leds.twr leds.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f leds.ut leds.ncd 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constraints1.ucf -p xc6slx45-csg324-3 leds.ngc leds.ngd  
+map -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o leds_map.ncd leds.ngd leds.pcf 
+par -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off leds_map.ncd leds.ncd leds.pcf 
+trce -filter /home/piter/fpga/projects/buses/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml leds.twx leds.ncd -o leds.twr leds.pcf -ucf constraints1.ucf 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constraints1.ucf -p xc6slx45-csg324-3 leds.ngc leds.ngd  
+map -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o leds_map.ncd leds.ngd leds.pcf 
+par -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off leds_map.ncd leds.ncd leds.pcf 
+trce -filter /home/piter/fpga/projects/buses/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml leds.twx leds.ncd -o leds.twr leds.pcf -ucf constraints1.ucf 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constraints1.ucf -p xc6slx45-csg324-3 leds.ngc leds.ngd  
+map -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o leds_map.ncd leds.ngd leds.pcf 
+par -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off leds_map.ncd leds.ncd leds.pcf 
+trce -filter /home/piter/fpga/projects/buses/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml leds.twx leds.ncd -o leds.twr leds.pcf -ucf constraints1.ucf 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constraints1.ucf -p xc6slx45-csg324-3 leds.ngc leds.ngd  
+map -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o leds_map.ncd leds.ngd leds.pcf 
+par -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off leds_map.ncd leds.ncd leds.pcf 
+trce -filter /home/piter/fpga/projects/buses/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml leds.twx leds.ncd -o leds.twr leds.pcf -ucf constraints1.ucf 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constraints1.ucf -p xc6slx45-csg324-3 leds.ngc leds.ngd  
+map -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o leds_map.ncd leds.ngd leds.pcf 
+par -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off leds_map.ncd leds.ncd leds.pcf 
+trce -filter /home/piter/fpga/projects/buses/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml leds.twx leds.ncd -o leds.twr leds.pcf -ucf constraints1.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f leds.ut leds.ncd 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+xst -intstyle ise -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/buses/leds.xst" -ofn "/home/piter/fpga/projects/buses/leds.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constraints1.ucf -p xc6slx45-csg324-3 leds.ngc leds.ngd  
+map -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o leds_map.ncd leds.ngd leds.pcf 
+par -filter "/home/piter/fpga/projects/buses/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off leds_map.ncd leds.ncd leds.pcf 
+trce -filter /home/piter/fpga/projects/buses/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml leds.twx leds.ncd -o leds.twr leds.pcf -ucf constraints1.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f leds.ut leds.ncd 
