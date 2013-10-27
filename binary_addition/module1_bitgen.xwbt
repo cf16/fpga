@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/piter/fpga/projects/binary_addition/module1.ncd
+OUTFILE=/home/piter/fpga/projects/binary_addition/module1.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=/home/piter/fpga/projects/binary_addition
+LICENSE=WebPack
+USER_INFO=210814340_0_0_917
