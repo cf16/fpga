@@ -1,0 +1,18 @@
+xst -intstyle ise -filter "/home/piter/fpga/projects/bit_addition/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/bit_addition/module1.xst" -ofn "/home/piter/fpga/projects/bit_addition/module1.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 module1.ngc module1.ngd  
+map -filter "/home/piter/fpga/projects/bit_addition/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o module1_map.ncd module1.ngd module1.pcf 
+par -filter "/home/piter/fpga/projects/bit_addition/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off module1_map.ncd module1.ncd module1.pcf 
+trce -filter /home/piter/fpga/projects/bit_addition/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml module1.twx module1.ncd -o module1.twr module1.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f module1.ut module1.ncd 
+xst -intstyle ise -filter "/home/piter/fpga/projects/bit_addition/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/bit_addition/module1.xst" -ofn "/home/piter/fpga/projects/bit_addition/module1.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc6slx45-csg324-3 module1.ngc module1.ngd  
+map -filter "/home/piter/fpga/projects/bit_addition/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o module1_map.ncd module1.ngd module1.pcf 
+par -filter "/home/piter/fpga/projects/bit_addition/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off module1_map.ncd module1.ncd module1.pcf 
+trce -filter /home/piter/fpga/projects/bit_addition/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml module1.twx module1.ncd -o module1.twr module1.pcf -ucf constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f module1.ut module1.ncd 
+xst -intstyle ise -filter "/home/piter/fpga/projects/bit_addition/iseconfig/filter.filter" -ifn "/home/piter/fpga/projects/bit_addition/module1.xst" -ofn "/home/piter/fpga/projects/bit_addition/module1.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc6slx45-csg324-3 module1.ngc module1.ngd  
+map -filter "/home/piter/fpga/projects/bit_addition/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o module1_map.ncd module1.ngd module1.pcf 
+par -filter "/home/piter/fpga/projects/bit_addition/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off module1_map.ncd module1.ncd module1.pcf 
+trce -filter /home/piter/fpga/projects/bit_addition/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml module1.twx module1.ncd -o module1.twr module1.pcf -ucf constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f module1.ut module1.ncd 
