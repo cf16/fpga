@@ -1,7 +1,7 @@
 Release 14.6 par P.68d (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-ubuntuamd::  Sun Oct 20 02:25:26 2013
+ubuntuamd::  Wed Oct 23 00:28:44 2013
 
 par -w -intstyle ise -ol high -mt off Switches_LEDs_map.ncd Switches_LEDs.ncd
 Switches_LEDs.pcf 
@@ -66,8 +66,8 @@ Specific Feature Utilization:
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 6 secs 
-Finished initial Timing Analysis.  REAL time: 6 secs 
+Starting initial Timing Analysis.  REAL time: 5 secs 
+Finished initial Timing Analysis.  REAL time: 5 secs 
 
 Starting Router
 
@@ -114,7 +114,7 @@ Generating Pad Report.
 All signals are completely routed.
 
 Total REAL time to PAR completion: 10 secs 
-Total CPU time to PAR completion: 10 secs 
+Total CPU time to PAR completion: 9 secs 
 
 Peak Memory Usage:  668 MB
 

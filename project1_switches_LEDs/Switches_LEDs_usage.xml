@@ -4,98 +4,98 @@
      changes made to this file may result in unpredictable
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
-<DeviceUsageSummary rev="13">
-<DesignStatistics TimeStamp="Sun Oct 20 02:26:16 2013"><group name="NetStatistics">
-<item name="NumNets_Active" rev="13">
+<DeviceUsageSummary rev="17">
+<DesignStatistics TimeStamp="Wed Oct 23 00:29:29 2013"><group name="NetStatistics">
+<item name="NumNets_Active" rev="17">
 <attrib name="value" value="9"/></item>
-<item name="NumNodesOfType_Active_DOUBLE" rev="13">
+<item name="NumNodesOfType_Active_DOUBLE" rev="17">
 <attrib name="value" value="5"/></item>
-<item name="NumNodesOfType_Active_GENERIC" rev="13">
+<item name="NumNodesOfType_Active_GENERIC" rev="17">
 <attrib name="value" value="9"/></item>
-<item name="NumNodesOfType_Active_IOBIN2OUT" rev="13">
+<item name="NumNodesOfType_Active_IOBIN2OUT" rev="17">
 <attrib name="value" value="6"/></item>
-<item name="NumNodesOfType_Active_IOBOUTPUT" rev="13">
+<item name="NumNodesOfType_Active_IOBOUTPUT" rev="17">
 <attrib name="value" value="6"/></item>
-<item name="NumNodesOfType_Active_OUTBOUND" rev="13">
+<item name="NumNodesOfType_Active_OUTBOUND" rev="17">
 <attrib name="value" value="6"/></item>
-<item name="NumNodesOfType_Active_PADINPUT" rev="13">
+<item name="NumNodesOfType_Active_PADINPUT" rev="17">
 <attrib name="value" value="3"/></item>
-<item name="NumNodesOfType_Active_PADOUTPUT" rev="13">
+<item name="NumNodesOfType_Active_PADOUTPUT" rev="17">
 <attrib name="value" value="3"/></item>
-<item name="NumNodesOfType_Active_PINFEED" rev="13">
+<item name="NumNodesOfType_Active_PINFEED" rev="17">
 <attrib name="value" value="3"/></item>
-<item name="NumNodesOfType_Active_QUAD" rev="13">
+<item name="NumNodesOfType_Active_QUAD" rev="17">
 <attrib name="value" value="54"/></item>
-<item name="NumNodesOfType_Active_SINGLE" rev="13">
+<item name="NumNodesOfType_Active_SINGLE" rev="17">
 <attrib name="value" value="1"/></item>
 </group>
 <group name="SiteStatistics">
-<item name="IOB-IOBS" rev="13">
+<item name="IOB-IOBS" rev="17">
 <attrib name="value" value="6"/></item>
 </group>
 <group name="MiscellaneousStatistics">
-<item name="AGG_BONDED_IO" rev="12">
+<item name="AGG_BONDED_IO" rev="16">
 <attrib name="value" value="6"/></item>
-<item name="AGG_IO" rev="12">
+<item name="AGG_IO" rev="16">
 <attrib name="value" value="6"/></item>
-<item name="AGG_LOCED_IO" rev="12">
+<item name="AGG_LOCED_IO" rev="16">
 <attrib name="value" value="6"/></item>
-<item name="NUM_BONDED_IOB" rev="12">
+<item name="NUM_BONDED_IOB" rev="16">
 <attrib name="value" value="6"/></item>
-<item name="NUM_LOCED_IOB" rev="12">
+<item name="NUM_LOCED_IOB" rev="16">
 <attrib name="value" value="6"/></item>
 </group>
 </DesignStatistics>
-<DeviceUsage TimeStamp="Sun Oct 20 02:26:16 2013"><group name="SiteSummary">
-<item name="IOB" rev="13">
+<DeviceUsage TimeStamp="Wed Oct 23 00:29:29 2013"><group name="SiteSummary">
+<item name="IOB" rev="17">
 <attrib name="total" value="1000000"/><attrib name="used" value="6"/></item>
-<item name="IOB_IMUX" rev="13">
+<item name="IOB_IMUX" rev="17">
 <attrib name="total" value="1000000"/><attrib name="used" value="3"/></item>
-<item name="IOB_INBUF" rev="13">
+<item name="IOB_INBUF" rev="17">
 <attrib name="total" value="1000000"/><attrib name="used" value="3"/></item>
-<item name="IOB_OUTBUF" rev="13">
+<item name="IOB_OUTBUF" rev="17">
 <attrib name="total" value="1000000"/><attrib name="used" value="3"/></item>
-<item name="PAD" rev="13">
+<item name="PAD" rev="17">
 <attrib name="total" value="1000000"/><attrib name="used" value="6"/></item>
 </group>
 </DeviceUsage>
-<ReportConfigData TimeStamp="Sun Oct 20 02:26:16 2013"><group name="IOB_OUTBUF">
-<item name="DRIVEATTRBOX" rev="13">
+<ReportConfigData TimeStamp="Wed Oct 23 00:29:29 2013"><group name="IOB_OUTBUF">
+<item name="DRIVEATTRBOX" rev="17">
 <attrib name="12" value="3"/></item>
-<item name="SLEW" rev="13">
+<item name="SLEW" rev="17">
 <attrib name="SLOW" value="3"/></item>
-<item name="SUSPEND" rev="13">
+<item name="SUSPEND" rev="17">
 <attrib name="3STATE" value="3"/></item>
 </group>
 </ReportConfigData>
-<ReportPinData TimeStamp="Sun Oct 20 02:26:16 2013"><group name="IOB_OUTBUF">
-<item name="IN" rev="13">
+<ReportPinData TimeStamp="Wed Oct 23 00:29:29 2013"><group name="IOB_OUTBUF">
+<item name="IN" rev="17">
 <attrib name="value" value="3"/></item>
-<item name="OUT" rev="13">
+<item name="OUT" rev="17">
 <attrib name="value" value="3"/></item>
 </group>
 <group name="PAD">
-<item name="PAD" rev="13">
+<item name="PAD" rev="17">
 <attrib name="value" value="6"/></item>
 </group>
 <group name="IOB_INBUF">
-<item name="OUT" rev="13">
+<item name="OUT" rev="17">
 <attrib name="value" value="3"/></item>
-<item name="PAD" rev="13">
+<item name="PAD" rev="17">
 <attrib name="value" value="3"/></item>
 </group>
 <group name="IOB_IMUX">
-<item name="I" rev="13">
+<item name="I" rev="17">
 <attrib name="value" value="3"/></item>
-<item name="OUT" rev="13">
+<item name="OUT" rev="17">
 <attrib name="value" value="3"/></item>
 </group>
 <group name="IOB">
-<item name="I" rev="13">
+<item name="I" rev="17">
 <attrib name="value" value="3"/></item>
-<item name="O" rev="13">
+<item name="O" rev="17">
 <attrib name="value" value="3"/></item>
-<item name="PAD" rev="13">
+<item name="PAD" rev="17">
 <attrib name="value" value="6"/></item>
 </group>
 </ReportPinData>

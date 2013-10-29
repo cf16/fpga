@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2013-10-20T23:37:32</DateModified>
+  <DateModified>2013-10-23T00:32:19</DateModified>
   <ModuleName>Switches_LEDs</ModuleName>
   <SummaryTimeStamp>2013-10-20T23:37:32</SummaryTimeStamp>
   <SavedFilePath>/home/piter/fpga/projects/project1_switches_LEDs/iseconfig/Switches_LEDs.xreport</SavedFilePath>

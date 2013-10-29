@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2013-10-27T22:30:20</DateModified>
+  <DateModified>2013-10-28T22:55:46</DateModified>
   <ModuleName>module1</ModuleName>
   <SummaryTimeStamp>2013-10-27T22:27:57</SummaryTimeStamp>
   <SavedFilePath>/home/piter/fpga/projects/bit_addition/iseconfig/module1.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/piter/fpga/projects/bit_addition</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>/home/piter/fpga/projects/bit_addition/</ImplementationReportsDirectory>
   <DateInitialized>2013-10-27T22:10:08</DateInitialized>
   <EnableMessageFiltering>true</EnableMessageFiltering>
  </header>

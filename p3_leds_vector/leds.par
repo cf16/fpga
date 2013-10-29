@@ -1,7 +1,7 @@
 Release 14.6 par P.68d (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-ubuntuamd::  Sun Oct 20 21:53:23 2013
+ubuntuamd::  Wed Oct 23 21:39:14 2013
 
 par -w -intstyle ise -ol high -mt off leds_map.ncd leds.ncd leds.pcf 
 
@@ -75,7 +75,7 @@ Phase  1  : 8 unrouted;      REAL time: 6 secs
 
 Phase  2  : 8 unrouted;      REAL time: 6 secs 
 
-Phase  3  : 0 unrouted;      REAL time: 7 secs 
+Phase  3  : 0 unrouted;      REAL time: 6 secs 
 
 Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
 
