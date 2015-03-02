@@ -20,7 +20,7 @@ architecture Behavioral of module1 is
 	 signal carry  : STD_LOGIC_VECTOR(3 downto 0); -- 4-bits
 	 signal result : STD_LOGIC_VECTOR(3 downto 0); -- 4-bits
 begin
-    LED <= "0000" & result;
+    LED <= "0000" & result; -- 4-bits + 4-bits
     x <= switches(2 downto 0);
 	 y <= switches(6 downto 4);
 	 
